@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Lista Cursos</title>
+</head>
+<body>
+    <h1>Lista Cursos</h1>
+<ul>
+    {% for c in curso %}
+    <li>{{c.nombre}} - Comision: {{c.numero_comision}}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
